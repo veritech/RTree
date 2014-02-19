@@ -7,5 +7,5 @@ Pod::Spec.new do |spec|
   spec.summary          = 'RTree C implementation'
   spec.source           = { :git => 'https://github.com/JasonBrownDeveloper/RTree.git', :branch => "master"}
   spec.requires_arc     = false
-  spec.source_files     = "*.h,c"
+  spec.source_files     = "rtree.?"
 end
